@@ -1,37 +1,3 @@
-// 8kyu - Logical Calculator
-// function andCalc(array) {
-//   if (array.every(x => x === true) || array.every(x => x === false)) {
-//     return array[0];
-//   } else {
-//     return false;
-//   }
-// }
-// function orCalc(array) {
-//   return array.reduce((x, y, z) => {
-//     return x === y ? x : true;
-//   });
-// }
-// function xorCalc(array) {
-//   return array.reduce((x, y, z) => x !== y);
-// }
-// function logicalCalc(array, op) {
-//   if (op === "AND") {
-//     return andCalc(array);
-//   } else if (op === "OR") {
-//     return orCalc(array);
-//   } else if (op === "XOR") {
-//     return xorCalc(array);
-//   }
-// }
-
-// console.log(logicalCalc([true, true, true, false], "AND"));
-
-// 8kyu - Price of Mangos
-// const mango = (q, p) => q * p - Math.floor(q / 3) * p;
-
-// console.log(mango(3, 3));
-// Should return 6
-
 // 8kyu - Training JS #4: Basic Data Types - Array
 // function getLength(arr, num){
 //   return arr.length
