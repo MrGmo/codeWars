@@ -1,9 +1,23 @@
+// 8kyu - Points of Reflection
+
+// function symmetricPoint(p,q) { 
+//   const diff =  [q[0]-p[0], q[1]-p[1]]
+//   return [diff[0] + q[0], diff[1] + q[1]]
+// }
+
+// console.log(symmetricPoint([0, 0], [1, 1]))
 
 
-// 8 kyu - Coefficients of the Quadratic Equation
+// 8kyu - Basic Mathematical Operations
+
+// const basicOp = (op, v1, v2) => op === '-' ? v1-v2 : op === '+' ? v1+v2 : op === '*' ? v1*v2 : v1/v2
+
+// console.log(basicOp('+', 4, 7))
+
+// 8kyu - Coefficients of the Quadratic Equation
 // const quadratic = (a, b) => [1,(a+b)*-1, a*b]
 
-// 8 kyu - Smallest unused ID
+// 8kyu - Smallest unused ID
 // function nextId(ids){
 //   const used = new Set(ids);
 //   for (let i = 0; i <= ids.length; i++) {
