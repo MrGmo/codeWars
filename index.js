@@ -1,3 +1,9 @@
+// 8kyu - Price of Mangos
+// const mango = (q, p) => q * p - Math.floor(q / 3) * p;
+
+// console.log(mango(3, 3));
+// Should return 6
+
 // 8kyu - Training JS #4: Basic Data Types - Array
 // function getLength(arr, num){
 //   return arr.length
@@ -17,7 +23,6 @@
 //   return arr.slice(0,-1)
 // }
 
-
 // 7kyu - Basic Math (Add or Subtract)
 
 // function calculate(str){
@@ -27,16 +32,14 @@
 
 // console.log(calculate('1plus2plus3plus4'))
 
-
 // 8kyu - Points of Reflection
 
-// function symmetricPoint(p,q) { 
+// function symmetricPoint(p,q) {
 //   const diff =  [q[0]-p[0], q[1]-p[1]]
 //   return [diff[0] + q[0], diff[1] + q[1]]
 // }
 
 // console.log(symmetricPoint([0, 0], [1, 1]))
-
 
 // 8kyu - Basic Mathematical Operations
 
@@ -66,5 +69,3 @@
 //   const num = (q.length-1) - q.indexOf('wolf')
 //   return `Oi! Sheep number ${num}! You are about to be eaten by a wolf!`
 // }
-
-
