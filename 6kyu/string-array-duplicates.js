@@ -1,0 +1,1 @@
+const dup = (str) => str.join('-').replace(/(.)\1+/gi, '$1').split('-')
