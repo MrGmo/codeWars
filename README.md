@@ -1,4 +1,4 @@
-# codeWars
+# codeWars in JavaScript
 
 Hi there!
 
